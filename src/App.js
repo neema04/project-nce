@@ -24,8 +24,10 @@ const App = () => {
           <Route path='/about' element={<AboutUs/>}></Route>
           <Route path='/contact' element={<ContactUs/>}></Route>
           <Route path='/career' element={<Careers/>}></Route>
+          
         </Routes>
        </BrowserRouter>
+       <div> hello world</div>
     </div>
   
   );
